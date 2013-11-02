@@ -37,14 +37,23 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/thermald:system/bin/thermald \
     vendor/xiaomi/aries/proprietary/bin/usbhub:system/bin/usbhub \
     vendor/xiaomi/aries/proprietary/bin/usbhub_init:system/bin/usbhub_init \
+    vendor/xiaomi/aries/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
+    vendor/xiaomi/aries/proprietary/bin/fmconfig:system/bin/fmconfig \
+    vendor/xiaomi/aries/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/xiaomi/aries/proprietary/etc/Diag.cfg:system/etc/Diag.cfg \
+    vendor/xiaomi/aries/proprietary/bin/gsiff_daemon:system/bin/gsiff_daemon \
+    vendor/xiaomi/aries/proprietary/bin/nl_listener:system/bin/nl_listener
+
+PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b00:system/etc/firmware/vidc.b00 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b01:system/etc/firmware/vidc.b01 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b02:system/etc/firmware/vidc.b02 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
     vendor/xiaomi/aries/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
-    vendor/xiaomi/aries/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
+    vendor/xiaomi/aries/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw
+
+PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/xiaomi/aries/proprietary/lib/hw/gps.default.so:system/lib/hw/gps.default.so \
     vendor/xiaomi/aries/proprietary/lib/hw/power.msm8960.so:system/lib/hw/power.msm8960.so \
@@ -97,7 +106,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libsensor_test.so:system/lib/libsensor_test.so \
     vendor/xiaomi/aries/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/xiaomi/aries/proprietary/lib/libxml.so:system/lib/libxml.so \
-    vendor/xiaomi/aries/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so
+    vendor/xiaomi/aries/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
+    vendor/xiaomi/aries/proprietary/lib/libgeofence.so:system/lib/libgeofence.so \
+    vendor/xiaomi/aries/proprietary/lib/libulp2.so:system/lib/libulp2.so \
+    vendor/xiaomi/aries/proprietary/lib/soundfx/libdseffect.so:system/lib/soundfx/libdseffect.so \
+    vendor/xiaomi/aries/proprietary/lib/libsurround_proc.so:system/lib/libsurround_proc.so
 
 
 # camera
