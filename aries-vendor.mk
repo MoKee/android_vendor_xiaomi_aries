@@ -265,6 +265,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/vendor/firmware/keymaster/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt 
 
 PRODUCT_PACKAGES += \
+    libqminvapi \
     libqti-perfd-client \
     libtime_genoff \
     libTimeService \

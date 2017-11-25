@@ -19,6 +19,16 @@ LOCAL_PATH := $(call my-dir)
 ifeq ($(TARGET_DEVICE),aries)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := libqminvapi
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/lib/libqminvapi.so
+LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .so
+LOCAL_MODULE_CLASS := SHARED_LIBRARIES
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := libqti-perfd-client
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/vendor/lib/libqti-perfd-client.so
