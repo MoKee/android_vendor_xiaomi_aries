@@ -118,7 +118,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/bin/btnvtool:system/bin/btnvtool \
     vendor/xiaomi/aries/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
-    vendor/xiaomi/aries/proprietary/lib/libbt-vendor.so:system/lib/libbt-vendor.so \
     vendor/xiaomi/aries/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so
 
 # Sensors
