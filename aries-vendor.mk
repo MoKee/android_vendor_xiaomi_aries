@@ -122,7 +122,7 @@ PRODUCT_COPY_FILES += \
 
 # Sensors
 PRODUCT_COPY_FILES += \
-    vendor/xiaomi/aries/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
+    vendor/xiaomi/aries/proprietary/vendor/lib/sensors.aries.so:system/vendor/lib/sensors.aries.so \
     vendor/xiaomi/aries/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/xiaomi/aries/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/xiaomi/aries/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
