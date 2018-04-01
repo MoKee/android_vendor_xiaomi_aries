@@ -22,7 +22,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
     vendor/xiaomi/aries/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/xiaomi/aries/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-    vendor/xiaomi/aries/proprietary/lib/libalsautils.so:system/lib/libalsautils.so \
     vendor/xiaomi/aries/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/xiaomi/aries/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
 
